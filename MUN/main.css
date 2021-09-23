@@ -1,0 +1,59 @@
+:root{
+    --altmetin: hsl(0, 0%, 87%);
+    --arkaplan:	hsl(345, 50%, 95%);
+}
+
+
+.yukarısı  {
+    height: 500px;
+    width: 1920px;
+
+    
+    background-position: center;
+    background-image: url("design/anasayfa\ arkaplan.png");
+    background-size: cover;
+    background-size: 1920px 916px;
+    background-repeat:no-repeat;
+}
+
+nav .navbar-nav li a{
+    color: white !important;
+    }
+  
+img{
+    width: 135px;
+    height: 90px;
+    margin: 0;
+}
+
+div.main{
+    width: 1920px;
+    height: 900px;
+    background-color: #f9edf0;
+    border-top-left-radius:70px;
+    border-top-right-radius:70px ;
+    flex-grow: 1;
+    word-wrap: break-word;
+    
+
+}
+
+.içyazı{
+    
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    top:200px;
+
+
+    word-wrap: break-word;
+    
+}
+
+footer{
+    width: 1920px;
+    height: 300px;
+    background-color: #dddddd;
+}
